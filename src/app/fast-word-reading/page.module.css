@@ -1,0 +1,31 @@
+.main {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.controlBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.controlBar button {
+    padding: 2px;
+    margin: 1px;  
+    font-size: 1rem;
+}
+
+.controlBar .settings {
+    display: flex;
+}

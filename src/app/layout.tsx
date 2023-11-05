@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MMMLL - Mach mir mein leben leichter",
-  description: "MMMLL - Mach mir mein leben leichter - Eine App um zu helfen.",
+  title: "MMMLL - Mach Mir Mein Leben leichter",
+  description: "MMMLL - Mach Mir Mein Leben leichter - Eine App um zu helfen.",
 };
 
 export default function RootLayout({
